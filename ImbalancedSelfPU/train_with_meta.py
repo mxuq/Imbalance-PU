@@ -27,14 +27,14 @@ def boolean_string(s):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--seed', type=int, default=1)
+parser.add_argument('--seed', type=int, default=0)
 parser.add_argument('--batch-size', '-b', type=int, default=256,
                     help='batch-size')
-parser.add_argument('--lr', type=float, default=5e-4, help='Learning rate')
+parser.add_argument('--lr', type=float, default=5e-5, help='Learning rate')
 parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum')
-parser.add_argument('--weight-decay', '--wd', default=5e-3, type=float,
-                    metavar='W', help='weight decay (default: 1e-4)')
+parser.add_argument('--weight-decay', '--wd', default=5e-5, type=float,
+                    metavar='W', help='weight decay (default: 5e-5)')
 parser.add_argument('--modeldir', type=str, default="model/",
                     help="Model path")
 parser.add_argument('--epochs', type=int, default=200)
