@@ -4,6 +4,7 @@ Code for the paper named ["Positive-Unlabeled Learning from Imbalanced Data"](ht
 ![demo](data.png)
 
 ## Requirements
+Please change here based on Japan Server, thanks
 * Pytorch 1.7
 * Python 3
 * CUDA 11.1
