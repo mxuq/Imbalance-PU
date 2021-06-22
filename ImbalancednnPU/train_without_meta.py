@@ -17,5 +17,5 @@ seed = int(sys.argv[10])
 #'label_num' = sys.argv[11]
 label_num = int(sys.argv[12])
 
-#python train_nnpu_sigmoid_main.py -num_initial_pos 1000 -learning_rate 4 -weight_decay 4 -num_batches 3 -seed 0
+#python train_nnpu_sigmoid_main.py -num_initial_pos 1000 -learning_rate 4 -weight_decay 4 -num_batches 3 -seed 0 -label_num 0
 train_nnpu_sigmoid(num_initial_pos, learning_rate, weight_decay, num_batches, seed, label_num)
